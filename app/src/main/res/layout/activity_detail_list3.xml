@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailList3">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="267dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/pattimura" />
+
+    <TextView
+        android:id="@+id/textpattimura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pattimura"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/imageView"/>
+
+    <TextView
+        android:id="@+id/textdeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pattimura, atau Thomas Matulessy (1783–1817), adalah pahlawan nasional Indonesia yang terkenal karena memimpin perlawanan rakyat Maluku melawan kolonialisme Belanda. Ia adalah seorang mantan tentara Inggris yang kemudian beralih menjadi pemimpin perjuangan rakyat Maluku setelah Belanda mengambil alih wilayah tersebut. Pada tahun 1817, Pattimura memimpin pemberontakan besar di Pulau Saparua, yang berhasil merebut benteng Belanda, Benteng Duurstede. Meskipun akhirnya ditangkap dan dihukum mati oleh Belanda, semangat perjuangan Pattimura tetap dikenang sebagai simbol keberanian dan perlawanan terhadap penindasan."
+        android:justificationMode="inter_word"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/textpattimura"/>
+
+</RelativeLayout>

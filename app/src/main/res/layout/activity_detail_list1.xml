@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailList1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hatta" />
+
+    <TextView
+        android:id="@+id/texthatta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hatta"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/imageView2"/>
+
+    <TextView
+        android:id="@+id/textdeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohammad Hatta (1902–1980) adalah salah satu pahlawan nasional Indonesia yang dikenal sebagai Bapak Proklamator, bersama dengan Soekarno. Ia berperan penting dalam memperjuangkan kemerdekaan Indonesia dari penjajahan Belanda. Selain menjadi tokoh proklamasi, Hatta juga menjabat sebagai Wakil Presiden pertama Indonesia dan merupakan seorang negarawan yang berkomitmen pada nilai-nilai demokrasi dan ekonomi kerakyatan. Hatta juga dikenal karena pemikirannya yang mendalam tentang koperasi, yang ia anggap sebagai model ekonomi yang ideal untuk kesejahteraan masyarakat Indonesia."
+        android:justificationMode="inter_word"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/texthatta"/>
+
+</RelativeLayout>

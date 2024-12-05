@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailList4">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="248dp"
+        android:layout_height="329dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/imam_bonjol" />
+
+    <TextView
+        android:id="@+id/textbonjol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imam Bonjol"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/imageView"/>
+
+    <TextView
+        android:id="@+id/textdeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuanku Imam Bonjol (1772–1864) adalah salah satu pahlawan nasional Indonesia yang dikenal sebagai pemimpin Perang Padri di Sumatera Barat melawan penjajahan Belanda. Sebagai seorang ulama, Imam Bonjol awalnya memimpin gerakan Padri yang bertujuan memurnikan ajaran Islam di kalangan masyarakat Minangkabau. Namun, gerakan ini kemudian berubah menjadi perjuangan melawan kolonial Belanda yang berusaha menguasai wilayah Sumatera Barat. Meskipun akhirnya tertangkap dan diasingkan oleh Belanda, perjuangan Tuanku Imam Bonjol tetap dikenang sebagai wujud perlawanan gigih terhadap penjajahan."
+        android:justificationMode="inter_word"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/textbonjol"/>
+
+</RelativeLayout>

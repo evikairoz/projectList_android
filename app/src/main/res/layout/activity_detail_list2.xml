@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailList2">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sudirman" />
+
+    <TextView
+        android:id="@+id/textsudirman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudirman"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/imageView"/>
+
+    <TextView
+        android:id="@+id/textdeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenderal Sudirman (1916–1950) adalah salah satu pahlawan nasional Indonesia yang dikenal sebagai Panglima Besar Tentara Nasional Indonesia (TNI) pertama. Ia memiliki peran yang sangat penting dalam mempertahankan kemerdekaan Indonesia, terutama dalam memimpin perlawanan melawan Belanda dalam Agresi Militer. Meskipun dalam kondisi sakit parah akibat tuberkulosis, Sudirman tetap memimpin pasukannya dalam perang gerilya. Dedikasi dan keberaniannya menjadikan Sudirman sebagai simbol perjuangan dan keteguhan hati bangsa Indonesia dalam mempertahankan kemerdekaan."
+        android:justificationMode="inter_word"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/textsudirman"/>
+</RelativeLayout>
